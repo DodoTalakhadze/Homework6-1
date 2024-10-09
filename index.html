@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <title>HOMEWORK6</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- this is header -->
     <header>
       <div class="header_content container">
         <a href="index.html"> <img src="images/logo (3).svg" alt="logo" /></a>
@@ -19,7 +20,7 @@
             </ul>
           </nav>
           <div class="header_icons">
-            <img src="images/cart-icon.svg" alt="cart" />
+            <img class="cart_icon" src="images/cart-icon.svg" alt="cart" />
             <div class="user_icon">
               <img src="images/user-icon.svg" alt="user" />
             </div>
@@ -27,8 +28,52 @@
         </div>
       </div>
     </header>
+    <!-- this is main section -->
     <main>
-      <div class="main_content container"></div>
+      <div class="main_content container">
+        <div>
+          <div class="photo_box">
+            <div class="images_column">
+              <img src="images/product-img-1.jpg" alt="product" />
+              <img src="images/product-img-2.jpg" alt="product" />
+              <img src="images/product-img-3.jpg" alt="product" />
+              <img src="images/product-img-4.jpg" alt="product" />
+              <img src="images/product-img-5.jpg" alt="product" />
+            </div>
+            <div class="main_image">
+              <!-- image in css -->
+            </div>
+          </div>
+        </div>
+
+        <div class="main_sect_rightside">
+          <h2>Areni 57.1'' Upholstered Loveseat</h2>
+          <div class="star_review">
+            <img src="images/star_filled.svg" alt="star" />
+            <img src="images/star_filled.svg" alt="star" />
+            <img src="images/star_filled.svg" alt="star" />
+            <img src="images/star_filled.svg" alt="star" />
+            <img src="images/star_no_fill.svg" alt="star" />
+            <span>3,345</span>
+          </div>
+          <h5>$549.99</h5>
+          <span>Colors</span>
+          <div class="pick_color">
+            <div class="color_box1"></div>
+            <div class="color_box2"></div>
+          </div>
+
+          <div class="cart_bttn_container">
+            <div class="add_btn_container">
+              <button class="add_to_cart_btn">Add To Cart</button>
+              <button class="add_to_fav_btn">
+                <img src="images/heart.svg" alt="fav" />
+              </button>
+            </div>
+            <button class="buy_btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
